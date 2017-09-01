@@ -17,8 +17,11 @@ h2{
 
 .myNav,.pc{
 	background-color: yellow;
+
 }
 
-section{background-color: red;}
+div{background-color: red;}
 
-aside{background-color: green;}
+div{background-color: green;}
+
+
