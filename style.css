@@ -1,27 +1,99 @@
-.body {
+body {
 
-	background-image: url('/images/background.png');
+	background-image: url('../images/background.png');
 	background-repeat: repeat;
-
+	height: 100%;
+	
 }
 
 
-h1{
-	background-color: orange;
-}
-
-
-h2{
-	background-color: orange;
-}
-
-.myNav,.pc{
-	background-color: yellow;
+.footerMyClass{
+    margin-bottom: 0px;
+    background-color: grey!important;
+    text-align: center!important;
 
 }
 
-div{background-color: red;}
+.textImg{
+    z-index: 2;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    padding-left: 60px;
+    padding-right: 25px;
+    margin-left: -40px;
+    margin-right: 10px;
+    background-color: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-div{background-color: green;}
+}
 
+.portImg{
+    z-index: 1; 
+
+}
+
+@media screen and  (min-width: 980px)  {
+.portImg{
+    margin-left: 10px;
+}
+
+.portClass{
+    width: 50% !important;
+}
+
+.connClass{
+    width: 50% !important;
+}
+
+
+
+.textImg{
+    z-index: 2;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    background-color: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.myImg{
+   margin-left: 80px;
+
+}
+
+}
+
+@media screen and  (max-width: 640px)  {
+
+    .textImg{
+    z-index: 2;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    padding-left: 40px;
+    padding-right: 45px;
+    margin-left: 120px;
+    margin-right: 10px;
+    background-color: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.myImg{
+   margin-left: 160px;
+
+}
+}
 
